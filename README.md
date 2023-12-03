@@ -10,14 +10,13 @@ The repository is organized into separate folders for each model used in the cla
 - `config.py`: File for configuring parameters specific to the model.
 - `loader.py`: Module for loading and preprocessing the sensor data.
 - `model.py`: File defining the architecture and implementation of the model.
-- `evaluator.py`: Module for evaluating the predictions and performance metrics.
+- `evaluate.py`: Module for evaluating the predictions and performance metrics.
 - `main.py`: Main script for training the model and making predictions.
 
 ## Folder Structure
 
 - `CNN/`: Contains files related to the Convolutional Neural Network model.
-- `RNN/`: Contains files related to the Recurrent Neural Network model.
-- `LSTM/`: Contains files related to the Long Short-Term Memory model.
+- `LSTM&RNN/`: Contains files related to the Long Short-Term Memory model and the Recurrent Neural Network model.
 - `KNN/`: Contains files related to the K-Nearest Neighbors model.
 - `SVM/`: Contains files related to the Support Vector Machine model.
 
@@ -29,13 +28,17 @@ To utilize this codebase, follow these steps:
 2. Configure parameters in `config.py` if necessary.
 3. Run `main.py` to train the model and make predictions.
 
-Please ensure you have the required dependencies installed before running the code. You may refer to the `requirements.txt` file for the necessary libraries and versions.
+Please ensure you have the required dependencies installed before running the code. 
 
 ## Requirements
 
 The code is implemented in Python and requires the following dependencies:
 
-- [List of dependencies and versions]
+- **torch** (Version 1.12.1)
+- **scikit-learn** (Version 1.0.2)
+- **numpy** (Version 1.20.0)
+- **pandas** (Version 1.4.4)
+
 
 
 ## Citation
