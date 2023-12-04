@@ -1,5 +1,5 @@
 # TJU_roughness_classification
-Machine learning models used in the paper
+Machine learning models used in the paper "A flexible piezoelectric PVDF/MXene pressure sensor for roughness discrimination"
 
 This repository contains code used for classifying roughness in sensor data obtained from flexible sensors. The classification is performed using various machine learning models including CNN, RNN, LSTM, KNN, and SVM.
 
